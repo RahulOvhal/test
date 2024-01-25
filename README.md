@@ -1,4 +1,9 @@
 # Getting Started with Create React App
+# Login Page :- 
+User Email and Password is Set to "india@123.in" and "IloveIndia123".
+please use above email and password to login. 
+
+# This Application is build using React and Redux. to Show Product details.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
