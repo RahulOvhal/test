@@ -1,0 +1,83 @@
+.loginpage{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right,blue , rgb(19, 152, 209) );
+    padding: 50px;
+}
+
+.loginform{
+    background-color: #fff;
+    width: 50%;
+    height: 80vh;
+    margin:  auto;
+    /* padding: 10% ; */
+    border-radius: 50px;
+
+}
+.loginform h1{
+    padding-top: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.formfeild{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Email,.password{
+    width: 90%;
+    margin: auto;
+}
+.Email{
+    /* background-color: green; */
+    height: 30px;
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+}
+input[type="email"],input[type="password"]{
+    width: 50%;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid black;
+    padding: 5px 15px;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type="email"],input[type="password"]:focus{
+    border: 1px solid blue;
+}
+
+
+
+.password{
+    height: 30px;
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+
+}
+label{
+    color: black;
+    font-weight: 800;
+}
+span{
+    color: red;
+    font-size: 12px;
+    font-weight: 500;
+}
+.loginbtn{
+    padding: 10px 40px;
+    background: linear-gradient(to right,blue , rgb(19, 152, 209) );
+    border-radius: 50px;
+    color: white;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+.loginbtn:hover{
+    transform: scale(0.8);
+}
